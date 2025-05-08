@@ -18,7 +18,7 @@ const Navbar = () => {
     { id: 4, name: "Contact Us", link: "/contact" },
   ];
   return (
-    <div className="mb-20">
+    <div className="">
       <Container>
         <div className="flex items-center justify-between relative border-b border-border ">
           {/* Logo Section */}
@@ -58,7 +58,7 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between py-[12px] md:py-4">
           <div
-            className="cursor-pointer md:hidden w-12 h-9 bg-base flex items-center justify-center"
+            className="cursor-pointer md:hidden px-3 py-[6px] rounded-sm bg-base flex items-center justify-center"
             onClick={() => setIsOpen(true)}
           >
             <Menu className="text-white" size={25} />
